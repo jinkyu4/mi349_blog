@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MI349 Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - My Blog</title>
 </head>
 <body>
   <header>
-    <h1>Navigation</h1>
-      <ul>
-        <li><a href="index.html">Posts</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-  <section>
-      <h2>Get in Touch</h2>
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="reason">Reason for Contact:</label><br>
-        <select id="reason" name="reason">
-          <option value="hi">Saying hi</option>
-          <option value="contractor">Looking for a contractor</option>
-          <option value="interview">Interested in an interview</option>
-        </select><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-</body>
-      
+    <h2>Get in Touch</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" required /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" required /></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message" required></textarea></label>
+      </p>
+      <!-- Hidden input required by Netlify -->
+      <input type="hidden" name="form-name" value="contact">
+      <p><button type="submit">Send</button></p>
+    </form>
