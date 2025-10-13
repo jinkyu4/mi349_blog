@@ -37,8 +37,11 @@ a {
   border-bottom: 1px dotted #ccc;
 }
 
-table {
-  font-family: "Georgia", serif;
-  color: #ffffff;
+tr:nth-child(even) {
+  background-color: #b4b3b3;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
 }
 
