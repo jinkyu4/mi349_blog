@@ -71,11 +71,14 @@ img {
 
 button {
   font-family: "Georgia", serif;
-  color: #3f3131;
+  background-color: #3f3131;
 }
 
-[attribute="Dillon Park"] {
-  font-family: "Georgia", serif;
-  color: #a83f65;
+input[type="text"],
+input[type="email"],
+textarea {
+  flex: 1 1 45%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-
