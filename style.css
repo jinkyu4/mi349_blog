@@ -5,7 +5,16 @@ body {
   line-height: 1.2;
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: "Georgia", serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  color: #ffffff;
+}
+h3 {
   font-family: "Georgia", serif;
   color: #ffffff;
 }
@@ -18,5 +27,13 @@ p {
 a {
   text-decoration: none;
   color: #0056b3;
+}
+
+#blog {
+  border-top: 1px dotted #ccc;
+}
+
+.blogpost {
+  border-bottom: 1px dotted #ccc;
 }
 
