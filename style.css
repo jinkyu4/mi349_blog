@@ -92,25 +92,8 @@ textarea {
 }
 
 .site-header {
-  background-color: #222;
+  background-color: #434440;
   position: sticky;
   top: 0;
   z-index: 1000;
-}
-
-.nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav a:hover {
-  color: #ffcc00;
 }
