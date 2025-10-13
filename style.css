@@ -37,3 +37,8 @@ a {
   border-bottom: 1px dotted #ccc;
 }
 
+table {
+  font-family: "Georgia", serif;
+  color: #ffffff;
+}
+
