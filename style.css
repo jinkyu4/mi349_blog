@@ -39,6 +39,7 @@ a {
 
 table {
   font-family: "Georgia", serif;
+  color: #ffffff;
 }
 
 tr:nth-child(even) {
