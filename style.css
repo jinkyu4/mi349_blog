@@ -2,19 +2,19 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #fafafa;
-  color: #333;
+  background-color: #434440;
+  color: #795151;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: "Georgia", serif;
-  color: #222;
+  color: #ffffff;
 }
 
 p {
-  margin-bottom: 1em;
+  font-family: "Georgia", serif;
+  color: #ffffff;
 }
 
 a {
